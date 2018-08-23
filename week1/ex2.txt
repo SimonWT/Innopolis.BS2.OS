@@ -1,0 +1,48 @@
+    1  ls
+    2  mkdir week1
+    3  ls
+    4  cd week1
+    5  sudo apt-get install git
+    6  ls
+    7  cd ~
+    8  cd ..
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd usr
+   13  cd ..
+   14  ls
+   15  cd /home
+   16  mkdir week1
+   17  cd ~
+   18  cd ..
+   19  ls
+   20  cd ..
+   21  ls
+   22  cd /user/bin
+   23  cd /usr/bin
+   24  ls
+   25  ls | sort -r | tail
+   26  ls | sort -r
+   27  ls | sort -r > ex1.txt
+   28  cat ex1.txt
+   29  move ex1.txt /home/week1/
+   30  mv ex1.txt /home/week1/
+   31  cd ..
+   32  ls
+   33  cd home
+   34  ls
+   35  cd week1
+   36  ls
+   37  ~
+   38  cd ..
+   39  ~
+   40  ls
+   41  cd week1
+   42  gedit ex1.txt
+   43  sudo apt-get install gedit
+   44  exit
+   45  ls
+   46  cd week1
+   47  ls
+   48  history > ex2.txt
