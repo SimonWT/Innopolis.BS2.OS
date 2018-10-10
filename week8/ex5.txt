@@ -1,6 +1,5 @@
 The main difference that physical address is address to the real memory, so address limited by size of memory.
-But virtual address uses mapping to the real addresses of memory, so number of address could be more than size of the memory,
+But virtual address uses mapping (use page table) to the real addresses of memory, so number of address could be more than size of the memory,
 that give possibility to manage more addresses in processes (swapping and etc).
-+ virtual addresses could point to several physical addresses (in different processes).
-+ virtual memory uses paging table instead of physical.
++several virtual addresses could point to one physical addresses (in different processes).
 
