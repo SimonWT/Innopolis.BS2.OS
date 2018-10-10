@@ -1,0 +1,5 @@
+That we have 16bit virtual addresses and 8KB page. So we need to have ( maximum virtual address / maximum page value ) entries:
+Entries = 2^16/2^13 = 2^3 = 8
+
+Answer: 8
+
