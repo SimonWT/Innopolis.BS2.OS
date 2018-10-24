@@ -1,0 +1,7 @@
+-rw-r--r-- 1 root root 0 Oct 24 13:11 _ex3.txt
+-rwxr--rwx 1 root root 0 Oct 24 13:11 _ex3.txt
+-rwxrwxrwx 1 root root 0 Oct 24 13:11 _ex3.txt
+
+660 - means that Owner has permitions on read, write, Group - the same, Others havent any permitions
+775 - means that Owner has all permitions, Group - the same, Others - on read and execcute 
+777 - All have all permitions
