@@ -1,0 +1,3 @@
+Because line buffer prints when it meet '\n', so in first case line buffer with 'Hello' copy to the child process and prints with '\n' two times.
+In second case printf prints line buffer before creating child process, so print one times Hello and two times '\n'
+
