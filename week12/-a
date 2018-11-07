@@ -1,0 +1,48 @@
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+
+int main(int argc, char* argv[]){
+
+        for(int i=0; i < argc; i++ ) {
+                printf("%s\n", argv[i]);
+        }
+
+        int arg = strcmp(argv[1], "-a");
+        int num = 0;
+        char *mode = "w";
+        if(arg == 0) {
+                //Append
+                printf("append\n");
+                char *mode = "a";
+                int num = 1;
+        }
+
+        FILE **outputs[argc - num];
+        for (int i = num+1; i < argc; i++) {
+                outputs[i-num-1] = fopen(argv[i], mode);
+                printf("otkrivayu\n");
+        }
+
+        char buffer[100];
+        while(fread(buffer, 1, 100, stdin)) {
+                for (int i = 0; i < argc-num-1; i++) {
+                        fwrite(buffer, 1, 100, outputs[i]);
+                }
+                printf("%s", buffer);
+        }
+        printf("\n");
+        //Close filestreams
+        for (size_t i = 0; i < argc-num-1; i++) {
+                fclose(outputs[i]);
+        }
+
+        return 0;
+}
+ 0; i < argc-num-1; i++) {
+                fclose(outputs[i]);
+        }
+
+        return 0;
