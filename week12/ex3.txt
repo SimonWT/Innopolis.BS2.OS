@@ -1,0 +1,25 @@
+//Standart buffer
+
+real	0m1.005s
+user	0m0.094s
+sys	0m0.839s
+
+//Standart buffer
+//O_SYNC
+real	0m0.932s
+user	0m0.063s
+sys	0m0.844s
+
+//Buffer = 3072
+real	0m0.387s
+user	0m0.016s
+sys	0m0.359s
+
+//Buffer = 3072
+//O_SYNC
+real	0m0.424s
+user	0m0.031s
+sys	0m0.375s
+
+We see that increasing of Buffer speed up running of program in 3 times.
+And doing Synchronous open() slow down running of program.
