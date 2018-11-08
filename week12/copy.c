@@ -7,7 +7,7 @@
 * your option) any later version. This program is distributed without  *
 * any warranty. See the file COPYING for details.                      *
 \**********************************************************************/
-
+//dd if=/dev/random of=bigfile bs=1024k count=100000
 /* copy.c
    Copy the file named argv[1] to a new file named in argv[2].
 */
