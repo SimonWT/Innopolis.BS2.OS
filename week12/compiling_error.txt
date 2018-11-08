@@ -1,0 +1,14 @@
+C:\Users\simon\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\week12\copy.c: In function 'main':
+C:\Users\simon\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\week12\copy.c:46:37: error: 'S_IRGRP' undeclared (first use in this function)
+     filePerms = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP |
+                                     ^~~~~~~
+C:\Users\simon\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\week12\copy.c:46:37: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\simon\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\week12\copy.c:46:47: error: 'S_IWGRP' undeclared (first use in this function)
+     filePerms = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP |
+                                               ^~~~~~~
+C:\Users\simon\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\week12\copy.c:47:17: error: 'S_IROTH' undeclared (first use in this function)
+                 S_IROTH | S_IWOTH;      /* rw-rw-rw- */
+                 ^~~~~~~
+C:\Users\simon\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\week12\copy.c:47:27: error: 'S_IWOTH' undeclared (first use in this function)
+                 S_IROTH | S_IWOTH;      /* rw-rw-rw- */
+                           ^~~~~~~
