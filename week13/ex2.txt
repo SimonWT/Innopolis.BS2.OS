@@ -1,0 +1,25 @@
+
+1. Recovery from Deadlock (not good choice):
+  -----------------------------------------
+  a. Through Preemption:
+    Often its impossible because its approach we should choose
+    process that we should take or give some resources by
+    narrow conditions.
+  b. Through Rollback:
+    We should make checkpoints, for that we should spend time
+    and space.
+  c. Through Killing Processes:
+    Not all processes we could kill and killing some important
+    may affect on system.
+  ------------------------------------------
+
+2. Avoidance (not realistic):
+  -----------------------------------------
+   To make this work we should know requirements of the
+   processes much in advance.
+  -----------------------------------------
+
+3. Prevention (good choice)
+  -----------------------------------------
+   We can use them!
+  -----------------------------------------
